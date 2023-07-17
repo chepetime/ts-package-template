@@ -49,6 +49,7 @@
     "package",
     "typescript"
   ],
+  "access": "public",
   "packageManager": "pnpm@8.5.1",
   "typesVersions": {
     "*": {}
