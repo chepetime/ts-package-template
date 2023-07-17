@@ -1,6 +1,6 @@
 {
   "name": "@chepe/ts-package-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A preconfigured project template for quickly starting a new TypeScript library",
   "license": "MIT",
   "author": "José Manuel Gulias Lugo Chepe <me@joselugo.dev> (https://joselugo.dev)",
