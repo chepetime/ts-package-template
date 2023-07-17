@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { number } from "minifaker";
 
-import { add } from "~/add";
+import { add } from "@/add";
 
 describe("add", () => {
   it("should return the sum of two numbers [2 + 3 = 5]", () => {
