@@ -3,7 +3,11 @@
   "version": "0.0.2",
   "description": "A preconfigured project template for quickly starting a new TypeScript library",
   "license": "MIT",
-  "author": "José Manuel Gulias Lugo Chepe <me@joselugo.dev> (https://joselugo.dev)",
+  "author": {
+    "name": "José Manuel Gulias Lugo Chepe",
+    "email": "me@joselugo.dev",
+    "url": "https://joselugo.dev"
+  },
   "homepage": "https://github.com/chepetime/ts-package-template",
   "repository": {
     "type": "git",
