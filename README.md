@@ -44,16 +44,16 @@ pnpm install
 
 ## How to use
 
-Install the [TypeScript library](https://www.npmjs.com/package/@chepe/ts-package-template) built using this template
+Install the [TypeScript library](https://www.npmjs.com/package/chepe-ts-package-template) built using this template
 
 ```shell
-npm i @chepe/ts-package-template
+npm i chepe-ts-package-template
 ```
 
 Import the library and the function
 
 ```ts
-import { add } from "@chepe/ts-package-template";
+import { add } from "chepe-ts-package-template";
 
 const result = add(1, 2);
 console.log(result); // 3
