@@ -17,7 +17,7 @@ This project template provides a preconfigured setup for creating a TypeScript l
 - Preconfigured build system
 - Testing setup
 - Documentation generation [WIP]
-- Linting and code formatting [WIP]
+- Linting and code formatting
 - Continuous Integration (CI) support
 
 ## Getting Started
@@ -53,10 +53,13 @@ npm i chepe-ts-package-template
 Import the library and the function
 
 ```ts
-import { add } from "chepe-ts-package-template";
+import { add, sub } from "chepe-ts-package-template";
 
-const result = add(1, 2);
-console.log(result); // 3
+const resultAdd = add(1, 2);
+console.log(resultAdd); // 3
+
+const resultSub = sub(5, 3);
+console.log(resultSub); // 2
 ```
 
 ## Acknowledgements
