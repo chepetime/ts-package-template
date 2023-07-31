@@ -13,5 +13,15 @@ export default defineConfig({
     deps: {
       inline: ["minifaker"],
     },
+    clearMocks: true,
+    coverage: {
+      all: true,
+      exclude: ["lib"],
+      include: ["src"],
+      provider: "istanbul",
+      reporter: ["html", "lcov"],
+    },
+    exclude: ["bin", "dist", "node_modules"],
+    setupFiles: ["console-fail-test/setup"],
   },
 });

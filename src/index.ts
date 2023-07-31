@@ -1,7 +1,3 @@
-import { add } from "./add";
-
-export { add };
-
-export default {
-  add,
-};
+export * from "./add/add";
+export * from "./greet/greet";
+export * from "./types";

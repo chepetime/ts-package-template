@@ -1,4 +1,5 @@
-MIT License Copyright (c) 2023 José Lugo
+MIT License Copyright (c) 2023 José Manuel Gulias Lugo
+"José Lugo", "Chepe", "Chepetime"
 
 Permission is hereby granted, free of
 charge, to any person obtaining a copy of this software and associated
